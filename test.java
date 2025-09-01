@@ -165,14 +165,14 @@ public class test {
         // Find constant term by evaluating polynomial at x=0
         BigInteger constantTerm = lagrangeInterpolation(selectedPoints, BigInteger.ZERO);
         
-        System.out.println("Constant term c: " + constantTerm);
+        System.out.println(constantTerm);
     }
     
     public static void main(String[] args) throws Exception {
         // Define the JSON test case files
         String[] testFiles = {
-            "c:\\Users\\Shubh\\Desktop\\New folder\\test_case1.json",
-            "c:\\Users\\Shubh\\Desktop\\New folder\\test_case2.json"
+            "test_case1.json",
+            "test_case2.json"
         };
         
         // Process each test file
