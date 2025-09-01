@@ -129,7 +129,7 @@ public class test {
     }
     
     private static void processJsonFile(String filePath) throws Exception {
-        System.out.println("Processing: " + filePath);
+        // System.out.println("Processing: " + filePath);
         
         // Read and parse JSON file
         String jsonContent = new String(Files.readAllBytes(Paths.get(filePath)));
